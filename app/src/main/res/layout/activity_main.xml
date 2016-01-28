@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#54D2E4"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.victor.ringbutton.example.MainActivity">
+
+    <com.victor.ringbutton.RingButton
+        android:id="@+id/ringButton"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        app:ringbutton_downDrawable="@drawable/hand_write"
+        app:ringbutton_downText="Hand Write"
+        app:ringbutton_upDrawable="@drawable/take_photo"
+        app:ringbutton_upText="Take Photo" />
+</RelativeLayout>
